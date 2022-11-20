@@ -11,7 +11,11 @@ void main()
 
 		for(i=0;i<550;i++)
 		{
-
+			
+			//sun
+			setcolor(7);
+			arc(500,40,0,360,30);
+			
 			//road
 			setcolor(LIGHTGRAY);
 			line(0,450,1500,450);
