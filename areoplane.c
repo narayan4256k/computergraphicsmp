@@ -16,6 +16,9 @@ void main()
 			setcolor(7);
 			arc(500,40,0,360,30);
 			
+			settextstyle(3,HORIZ_DIR,2);
+			outtextxy(480-i,460,"CREATED BY NARAYAN,ADITYA,TEJAS");
+			
 			//road
 			setcolor(LIGHTGRAY);
 			line(0,450,1500,450);
@@ -189,6 +192,17 @@ void main()
 
 
 		}
+	
+		
+		setbkcolor(CYAN);
+		setcolor(RED);
+		settextstyle(10,HORIZ_DIR,3);
+		outtextxy(200,150,"CREATED BY");
+		settextstyle(1,HORIZ_DIR,1);
+		outtextxy(350,300,"NARAYAN  ADITYA TEJAS");
+
+
+	
 	getch();
 	closegraph();
 }
